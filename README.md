@@ -28,8 +28,8 @@ Cada jogo está em um arquivo separado e pode ser executado individualmente.
 
 ```
 jogos-pygame/
-├── acerte_o_alvo.py
-├── pong.py
+├── AcerteAlvo.py
+├── Pong.py
 ├── acerto.ogg
 ├── erro.ogg
 └── README.md
@@ -41,7 +41,7 @@ Os arquivos `acerto.ogg` e `erro.ogg` são usados no jogo **Acerte o Alvo** para
 
 ## Jogos
 
-### Acerte o Alvo (`acerte_o_alvo.py`)
+### Acerte o Alvo (`AcerteAlvo.py`)
 
 Neste jogo, o jogador precisa clicar em um quadrado azul (o alvo) que aparece em posições aleatórias na tela.
 Cada acerto aumenta a pontuação e cada erro faz perder pontos, mas a pontuação nunca fica negativa.
@@ -62,7 +62,7 @@ Cada acerto aumenta a pontuação e cada erro faz perder pontos, mas a pontuaç�
 
 ---
 
-### Pong (`pong.py`)
+### Pong (`Pong.py`)
 
 Uma versão simples do clássico Pong, feita para dois jogadores.
 Cada jogador controla uma raquete e precisa rebater a bola sem deixar que ela passe.
